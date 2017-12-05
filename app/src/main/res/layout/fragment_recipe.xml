@@ -4,7 +4,7 @@
                                              android:id="@+id/constraintLayout"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent"
-                                             tools:context="com.example.recipe.activity.RecipeActivity$PlaceholderFragment">
+                                             tools:context="com.example.recipe.activity.RecipeActivity">
 
     <TextView
         android:id="@+id/text_view_recipe_name"
