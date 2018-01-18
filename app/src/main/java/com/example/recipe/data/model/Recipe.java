@@ -1,15 +1,17 @@
-package com.example.recipe.model;
+package com.example.recipe.data.model;
 
 public class Recipe {
+
     private Integer mId;
     private String name, description;
-    private Integer image;
 
-    public Recipe(Integer mId, String name, String description, Integer image) {
+    public Recipe() {
+    }
+
+    public Recipe(int mId, String name, String description) {
         this.mId = mId;
         this.name = name;
         this.description = description;
-        this.image = image;
     }
 
     public Integer getmId() {
@@ -36,11 +38,4 @@ public class Recipe {
         this.description = description;
     }
 
-    public Integer getImage() {
-        return image;
-    }
-
-    public void setImage(Integer image) {
-        this.image = image;
-    }
 }
